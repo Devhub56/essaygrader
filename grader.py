@@ -1,3 +1,8 @@
+# alternative import
+# from spacy_download import load_spacy
+# Will download the model if it isn't installed yet
+# nlp = load_spacy("en_core_web_sm", exclude=["parser", "tagger"])  
+
 import spacy
 
 # Load the language model
